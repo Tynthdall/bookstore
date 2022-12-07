@@ -226,7 +226,18 @@ logout
 待定
 
 # 各个类的接口及成员说明
-待定
+
+├── Bookstore
+│       ├── Bookstore.cpp
+│       ├── bookstore.h
+│       ├── users.cpp
+│       ├── users.h
+│       ├── books.cpp
+│       ├── books.hpp
+│       ├── log.cpp
+│       └── log.hpp
+│───├── evalstate.cpp
+│───├── evalstate.hpp
 
 # 文件存储说明
 用三个库分别存储账户系统、图书系统和日志系统
