@@ -223,7 +223,7 @@ logout
 完成账户系统、图书系统、日志系统，分用户权限完善账户信息，存储账户、图书、日志相关指令，通过命令行与用户输入交互。
 
 # 代码文件结构
-待定
+待定  
 ├── Bookstore  
 │       ├── Bookstore.cpp  
 │       ├── bookstore.h  
@@ -237,6 +237,8 @@ logout
 │───├── CMakeLists.txt   
 
 # 各个类的接口及成员说明
+
+待定  
 
 ├── Bookstore  
 │       ├── Bookstore.cpp  
