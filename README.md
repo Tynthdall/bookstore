@@ -224,6 +224,17 @@ logout
 
 # 代码文件结构
 待定
+├── Bookstore  
+│       ├── Bookstore.cpp  
+│       ├── bookstore.h  
+│       ├── users.cpp  
+│       ├── users.h  
+│       ├── books.cpp  
+│       ├── books.hpp  
+│       ├── log.cpp  
+│       └── log.hpp  
+│───├── README.md  
+│───├── CMakeLists.txt   
 
 # 各个类的接口及成员说明
 
