@@ -62,31 +62,31 @@ quit 和 exit 指令功能为正常退出系统。
 
 示例：（假设所有用户均存在，所有密码均正确）
 
-# 初始时登录栈为空
+初始时登录栈为空
 su root sjtu
 select first
-# 此时登录栈为 root，选择的书为 first
+此时登录栈为 root，选择的书为 first
 
 su root sjtu
-# 此时登录栈为 root root，没有选择的书
+此时登录栈为 root root，没有选择的书
 select second
 
 su zhang beihai
 select third
-# 此时登录栈为 root root zhang，选择的书为 third
-# 操作的用户为 zhang，无法执行 delete 等命令
+此时登录栈为 root root zhang，选择的书为 third
+操作的用户为 zhang，无法执行 delete 等命令
 
 su chu yan
-# 此时登录栈为 root root zhang chu，操作的用户为 chu，没有选择的书
+此时登录栈为 root root zhang chu，操作的用户为 chu，没有选择的书
 
 logout
-# 此时登录栈为 root root zhang，选择的书为 third
+此时登录栈为 root root zhang，选择的书为 third
 
 logout
-# 此时登录栈为 root root，选择的书为 second
+此时登录栈为 root root，选择的书为 second
 
 logout
-# 此时登录栈为 root，选择的书为 first
+此时登录栈为 root，选择的书为 first
 帐户信息
 关于指令格式中的用户自定义字符串限定如下，其中「最大长度」含义为该字符串所占存储空间不能超过指定数目的英文字母字符所占存储空间。
 
